@@ -35,6 +35,4 @@ You can install them via pip:
 
 pip install yfinance pandas numpy matplotlib
 
-THIS CAN BE RUN IN THE TERMINAL:
-
 
