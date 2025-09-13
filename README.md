@@ -1,5 +1,9 @@
 # yfinance-interactive-portfolio-simulator
-An interactive .py file (based on yfinance) which asks the user which stocks they would like to examine and the relevant time period then offers recent pricing and percentage change data as well as metrics based on chosen portfolio weights and Monte Carlo simulations to find the weights which maximise the Sharpe ratio.
+An interactive Python tool that allows users to:
+- retrieve historical stock prices and daily percentage changes;
+- compute portfolio metrics: annual return, volatility, and Sharpe ratio;
+- visualize (via plots) cumulative returns for individual stocks and the portfolio; and
+- perform Monte Carlo simulations to find the portfolio weights that maximize the Sharpe ratio.
 
 INPUT: 
 - stock tickers
@@ -31,4 +35,6 @@ You can install them via pip:
 
 pip install yfinance pandas numpy matplotlib
 
-THIS RUNS ENTIRELY IN TERMINAL (fully interactive)
+THIS CAN BE RUN IN THE TERMINAL:
+
+
